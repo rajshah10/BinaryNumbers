@@ -1,0 +1,124 @@
+body{
+    background-color: #130D26;
+}
+.header{
+    height: 60px;
+    display: flex;
+    top:0;
+    z-index: 100;
+    width:100%;
+    margin:auto
+}
+.left-header{
+ margin-left: 20px;
+}
+.left-text
+{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color:white
+}
+.upper-text
+{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+.bottom-text{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.left-header{
+    display:flex
+}
+.left-header img{
+    border-radius: 100%;
+    padding:5px
+}
+
+.header-search{
+    width: 50%;
+    padding: 6px;
+}
+.header-right{
+    display: flex;
+    margin-right:auto;
+    width:30%
+    
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+    float: right;
+    margin-top: 5px;
+    
+    
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	padding: 9px 10px 9px 32px;
+	width: 220px;
+	background: #171030 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #171030;
+	outline : none;
+	-webkit-border-radius: 10em;
+	   -moz-border-radius: 10em;
+	        border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	   -moz-transition: all .5s;
+	        transition: all .5s;
+}
+input {
+    caret-color : white;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+    width: 250px;
+   
+}
+.header-options img{
+    width: 45px;
+   
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.weather span{
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.weather-text{
+    font-weight: bold;
+    color:white
+}
+.city{
+    color:#454860
+}
+.bellicon{
+   margin-left: 25px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .left-text{
+        display: none;
+    }
+    .left-header{
+        margin-left: 20px;
+    }
+  }
